@@ -2,10 +2,10 @@
 
 <p align="center">  
   <a href="https://youtu.be/WcA7GZuaN0A">
-   <img alt="botgsswa" height="300" src="https://github.com/gssbotwa.png">
+   <img alt="botgsswa" height="300" src="https://i.imgur.com/ur24PoA.jpg">
     
 <p align="center">
-<a href="https://github.com/gssbotwa"><img title="Author" src="https://img.shields.io/badge/GSS-BOTWA-black?style=for-the-badge&logo=WhatsApp"></a>
+<a href="https://github.com/gssbotwa"><img title="Author" src="https://i.imgur.com/ur24PoA.jpg"></a>
 
 
  
