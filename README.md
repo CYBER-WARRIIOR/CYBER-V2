@@ -12,15 +12,6 @@
 <p align="center"> Introducing GSS BOTWA MD, It is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
 
 
-   <p align="center">
-  <a aria-label="GSS BOTWA MD is free to use" href="https://youtube.com/@mhmodsofc" target="_blank">
-    <img alt="MH MODS OFC Yt" src="https://img.shields.io/youtube/channel/subscribers/UCWHA-PreVSVaYhDTAiUipCA" target="_blank" />
-  </a>
-
-</p>
-<p align="center"><img src="https://profile-counter.glitch.me/{chhaseeb47}/count.svg" alt="chhaseeb47 :: Visitor's Count" /></p>
-
-
 
   
 ### 1. FORK THIS REPO
