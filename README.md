@@ -1,8 +1,4 @@
-<h1 align="center">GSS BOTWA-MD</h1>
-
-<p align="center">  
-  <a href="https://youtu.be/WcA7GZuaN0A">
-   <img alt="botgsswa" height="300" src="https://i.imgur.com/ur24PoA.jpg">
+<h1 align="center">𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹</h1>
     
 <p align="center">
 <a href="https://github.com/gssbotwa"><img title="Author" src="https://i.imgur.com/ur24PoA.jpg"></a>
