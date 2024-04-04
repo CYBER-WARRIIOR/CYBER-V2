@@ -1,5 +1,5 @@
 {
-  "name": "gss botwa",
+  "name": "𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹",
   "version": "1.2.5",
   "description": "WhatsApp Using Lib Baileys Multi Device",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "bot-md",
     "multi-device"
   ],
-  "author": "sid bhai.",
+  "author": "𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -105,11 +105,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gssbotwa/Gss_Botwa2.git"
+    "url": "git+https://github.com/CYBER-WARRIIOR/CYBER-V2.git"
   },
   "bugs": {
-    "url": "https://github.com/gssbotwa/Gss_Botwa2/issues"
+    "url": "https://github.com/CYBER-WARRIIOR/CYBER-V2/issues"
   },
-  "homepage": "https://github.com/gssbotwa/Gss_Botwa2#readme"
+  "homepage": "https://github.com/CYBER-WARRIIOR/CYBER-V2#readme"
 }
  
