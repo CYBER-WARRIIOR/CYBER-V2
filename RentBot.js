@@ -336,7 +336,7 @@ const tod = generateWAMessageFromContent(jid,
 "description": desc,
 "currencyCode": "INR",
 "priceAmount1000": "100000",
-"url": `https://youtube.com/@SinghaniyaTech0744`,
+"url": `https://youtube.com/@SinghniyaTech0744`,
 "productImageCount": 1,
 "salePriceAmount1000": "0"
 },
