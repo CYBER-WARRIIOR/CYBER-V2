@@ -155,7 +155,20 @@ const hours = Math.floor((uptime % (24 * 3600)) / 3600); // Calculate hours
 const minutes = Math.floor((uptime % 3600) / 60); // Calculate minutes
 const seconds = Math.floor(uptime % 60); // Calculate seconds
 //Uptime
-  const uptimeMessage = `*I am alive now since ${day}d ${hours}h ${minutes}m ${seconds}s*`;
+  const uptimeMessage = `**•┈┈••✦❀❀✦••┈┈•*
+
+*"♥✨♡ 💸🙂*
+
+           *⸙• 「「⸙」‎🌸🌍*
+
+  *_.. 𝐈𝐌 𝐁𝐨𝐓  🖥️𝐂𝐑𝐞𝐀𝐓𝐨𝐑..🂱_*
+                 *_𝐁𝐨𝐓  𝐢𝐒  𝐀𝐋𝐢𝐕𝐞  𝐒𝐢𝐍𝐜𝐄  𝟐𝟏  𝐌𝐢𝐍𝐮𝐓𝐞_*    
+                            
+      🧬📌 *_𝟑𝟎 𝐒𝐄𝐂𝐎𝐍𝐃𝐒_￣<²*    
+          *ʟᴀᴛᴇɴᴄʏ: 309 _ᴍs_*
+🔐⚠️
+            ${day}d ${hours}h ${minutes}m ${seconds}s*
+	                    𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹`;
   
   const runMessage = `*☀️ ${day} Day*\n *🕐 ${hours} Hour*\n *⏰ ${minutes} Minimum*\n *⏱️ ${seconds} Seconds*\n`;
   
@@ -1342,9 +1355,10 @@ case 'setppgroup':
 case 'sc':
 case 'script':
 case 'scriptbot':
+case 'repo':
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-    const githubRepoUrl = 'https://api.github.com/repos/gssbotwa/Gssbotwa2';
+    const githubRepoUrl = 'https://api.github.com/repos/CYBER-WARRIIOR/CYBER-V2';
 
     fetch(githubRepoUrl)
         .then(response => response.json())
@@ -1365,7 +1379,7 @@ case 'scriptbot':
 ♈ *Forks:* ${repoInfo.forks}
 📅 *Release Date:* ${releaseDate}
 🕐 *Last Update:* ${lastUpdateDate}
-👨‍💻 *Owner:* ${repoInfo.owner}`;
+👨‍💻 *Owner:* 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹`;
 
             gss.sendPoll(m.chat, uy, ['.menu', '.ping'], {
                 quoted: m
@@ -2158,7 +2172,7 @@ case 'get':
   }
 
   if (!/text|json/.test(res.headers.get('content-type'))) {
-    return gss.sendMedia(m.chat, url, 'file', 'API FETCHED FROM GSS_BOTWA', m);
+    return gss.sendMedia(m.chat, url, 'file', 'API FETCHED FROM 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹_BOTWA', m);
   }
 
   let content = Buffer.from(await res.arrayBuffer());
@@ -2322,6 +2336,7 @@ break;
 case 'ytv':
   case 'video': 
     case 'ytmp4':
+case 'playvid':
   try {
     if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
@@ -2689,7 +2704,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 *
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2738,7 +2753,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹*
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2855,7 +2870,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const pollMessage = `
 ╭═════════•∞•══╮
-│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -2932,7 +2947,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3010,7 +3025,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3093,7 +3108,7 @@ case '𝐕𝐢𝐝𝐞𝐨': {
 
 const captionText = `
 ╭═════════•∞•══╮
-│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -4488,7 +4503,18 @@ case 'ping': {
         key: pingMsg.key,
         type: 14,
         editedMessage: {
-          conversation: `*Pong:* ${new Date() - startTime} ms`
+          conversation: `*•┈┈••✦❀❀✦••┈┈•*
+
+*"♥✨♡ 💸🙂*
+
+           *⸙• 「「⸙」‎🌸🌍*
+
+  *_.. 𝐈𝐌 𝐁𝐨𝐓  🖥️𝐂𝐑𝐞𝐀𝐓𝐨𝐑..🂱_*
+                 
+🔐⚠️
+	   *Pong:*
+    𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹
+    ${new Date() - startTime} ms`
         }
       }
     }, {});
