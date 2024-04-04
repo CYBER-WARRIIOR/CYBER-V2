@@ -5582,7 +5582,7 @@ case 'allmenu': {
     await doReact("📁");
     let a = db.data.users[m.sender];
     let introText = `
-╭──═❮ *GssBotwa* ❯═─┈•
+╭──═❮ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹* ❯═─┈•
 │ Hi *${pushname}* 👋  
 ╰–❖ *${greetingTime}* 😄 
 
