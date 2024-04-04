@@ -8,7 +8,7 @@ global.linkGroup = 'https://chat.whatsapp.com/JLYhBR3rZPC00zyBHMyqDL'
 
 global.apikey = 'bf2d2cf29b3edc604b447983';
 global.ownername = "𝐌𝐔𝐇𝐌𝐌𝐀𝐃 𝐔𝐒𝐌𝐀𝐍";
-global.owner = [923140053156'];
+global.owner = ['923140053156'];
 global.premium = ['923140053156'];
 global.packname = "𝚜𝚝𝚒𝚌𝚔𝚎𝚛 𝚋𝚢";
 global.author = "𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 𝚩𝚯𝚻𝐖𝚫";
