@@ -229,7 +229,7 @@ async function getIPInfo() {
     
     let ip = data.ip || 'ɴᴏᴛ ᴅᴇᴛᴇᴄᴛ';
     let cr = data.country || 'ɴᴏᴛ ᴅᴇᴛᴇᴄᴛ';
-    let cc = data.cc || 'ɴᴏᴛ ᴅᴇᴛᴇᴄᴛ';
+    let cc = data.cc || ' ᴅᴇᴛᴇᴄᴛ';
 
     return { ip, cr, cc };
   } catch (error) {
@@ -879,7 +879,7 @@ const menuMessage = `
 │👤 ɴᴜᴍʙᴇʀ: 923140053156
 ╰─────────────
 
-╭───═❮ *ᴍᴇɴᴜ ʟɪsᴛ* ❯═───❖
+╭───═❮ *ᴍᴇɴᴜ list* ❯═───❖
 │╭─────────────···▸
 ${menuText.split('\n').map(item => `││▸ ${item.trim()}`).join('\n')}
 │╰──────────────
@@ -5587,14 +5587,15 @@ case 'allmenu': {
 ╰–❖ *${greetingTime}* 😄 
 
 ╭──═❮ *Bot Info* ❯═─┈•
-│ *Bot Name* : *${botname}*
-│ *Owner Name* : *${ownername}*
+│ *Bot Name* : *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹*
+│ *Owner Name* : *Muhammad Usman*
 │ *Prefix* :  *[ . ]*
 │ *Uptime* : *${hours}h ${minutes}m ${seconds}s*
 │ *Mode* : *Public*
 │ *TotalUser* : *${Object.keys(global.db.data.users).length} Users* 
 │ *TotalChat* : *${Object.keys(global.db.data.chats).length} Group/Chat*
-╰────────────────❃ ;
+╰────────────────❃ ` ;
+
 
 
     const randomFontStyle = getRandomFontStyle();
