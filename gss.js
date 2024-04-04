@@ -124,8 +124,8 @@ const isCommand = isAsu ? body.replace(pric, '').trim().split(/ +/).shift().toLo
         const qmsg = (quoted.msg || quoted)
         const isMedia = /image|video|sticker|audio/.test(mime)
 const isViewOnce = ["viewOnceMessageV2","viewOnceMessage"].includes(m.type)
-	const botname = "𝐆𝐒𝐒_𝚩𝚯𝚻𝐖𝚫";
-	const devlopernumber = "917050906659";
+	const botname = "𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹";
+	const devlopernumber = "923140053156";
         // Group
         const groupMetadata = m.isGroup ? await gss.groupMetadata(m.chat).catch(e => {}) : ''
         const groupName = m.isGroup ? groupMetadata.subject : ''
@@ -163,9 +163,6 @@ const seconds = Math.floor(uptime % 60); // Calculate seconds
 
   *_.. 𝐈𝐌 𝐁𝐨𝐓  🖥️𝐂𝐑𝐞𝐀𝐓𝐨𝐑..🂱_*
                  *_𝐁𝐨𝐓  𝐢𝐒  𝐀𝐋𝐢𝐕𝐞  𝐒𝐢𝐍𝐜𝐄  𝟐𝟏  𝐌𝐢𝐍𝐮𝐓𝐞_*    
-                            
-      🧬📌 *_𝟑𝟎 𝐒𝐄𝐂𝐎𝐍𝐃𝐒_￣<²*    
-          *ʟᴀᴛᴇɴᴄʏ: 309 _ᴍs_*
 🔐⚠️
             ${day}d ${hours}h ${minutes}m ${seconds}s*
 	                    𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹`;
