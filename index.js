@@ -73,7 +73,7 @@ async function startgss() {
     const gss = gssConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['gss botwa Multi Device','Safari','1.0.0'],
+        browser: ['CYBER botwa Multi Device','Safari','1.0.0'],
         auth: state,
         getMessage: async (key) => {
             if (store) {
@@ -81,7 +81,7 @@ async function startgss() {
                 return msg.message || undefined
             }
             return {
-                conversation: "Hai Im gss botwa"
+                conversation: "Hai Im CYBER botwa"
             }
         }
     })
