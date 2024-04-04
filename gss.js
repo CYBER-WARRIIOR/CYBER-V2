@@ -842,7 +842,7 @@ function generateMenu(cmdList, title) {
     .map((v) => `│${v}`).join('\n');
 
     return `
-╭───═❮ ${title} ❯═───❖
+╭───═❮ 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 ❯═───❖
 │ ╭─────────────···▸
 ${formattedCmdList.split('\n').map(item => `│${item ? ' ' + item.trim() : ''}`).join('\n')}
 │ ╰──────────────
@@ -872,11 +872,11 @@ const menuText = `*🔢 TYPE BELOW NUMBER*
 9. ᴍᴀɪɴᴍᴇɴᴜ`;
 
 const menuMessage = `
-👨‍💻 GSSBOTWA - ＭＤ - Ｖ2 👨‍💻
+𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹
 ╭─────────────·
 │📍 ᴠᴇʀꜱɪᴏɴ: ᴠ2
-│👨‍💻 ᴏᴡɴᴇʀ : ᴇᴛʜɪx xsɪᴅ      
-│👤 ɴᴜᴍʙᴇʀ: 917050906659
+│👨‍💻 ᴏᴡɴᴇʀ : 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹    
+│👤 ɴᴜᴍʙᴇʀ: 923140053156
 ╰─────────────
 
 ╭───═❮ *ᴍᴇɴᴜ ʟɪsᴛ* ❯═───❖
@@ -1646,7 +1646,7 @@ case "score":
     const result = await response.json();
 
     let formattedResult = `╭══════════════•∞•══╮\n`;
-    formattedResult += `│⿻   *GSS BOTWA 😎 🔥*\n`;
+    formattedResult += `│⿻   *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 😎 🔥*\n`;
     formattedResult += `│⿻   *LIVE MATCH INFO* ✨\n`;
     formattedResult += `│⿻\n`;
 
@@ -2356,7 +2356,7 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2399,7 +2399,7 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2461,7 +2461,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2504,7 +2504,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2571,7 +2571,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2620,7 +2620,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2689,7 +2689,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2738,7 +2738,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2855,7 +2855,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const pollMessage = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -2932,7 +2932,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3010,7 +3010,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3093,7 +3093,7 @@ case '𝐕𝐢𝐝𝐞𝐨': {
 
 const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 BOTWA*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3636,7 +3636,7 @@ case 'qc':
         try {
             profilePicture = await gss.profilePictureUrl(m.quoted ? m.quoted.sender : m.sender, 'image');
         } catch {
-            profilePicture = 'https://srv.neoxr.tk/files/z8hI5T.jpg';
+            profilePicture = 'https://i.imgur.com/ur24PoA.jpg';
         }
 
         const quoteObject = {
@@ -4702,10 +4702,10 @@ case "chatgpt":
             text: data.answer,
             contextInfo: {
                 externalAdReply: {
-                    title: "GPT TURBO 3.5K",
+                    title: "𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 TURBO 3.5K",
                     body: "",
                     mediaType: 1,
-                    thumbnailUrl: "https://i.ibb.co/9bfjPyH/1-t-Y7-MK1-O-S4eq-YJ0-Ub4irg.png",
+                    thumbnailUrl: "https://i.imgur.com/ur24PoA.jpg",
                     renderLargerThumbnail: false,
                     mediaUrl: "",
                     sourceUrl: "",
@@ -4756,10 +4756,10 @@ case "chatgpt":
                 text: data.answer,
                 contextInfo: {
                     externalAdReply: {
-                        title: "GPT TURBO 3.5K",
+                        title: "𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 TURBO 3.5K",
                         body: "",
                         mediaType: 1,
-                        thumbnailUrl: "https://i.ibb.co/9bfjPyH/1-t-Y7-MK1-O-S4eq-YJ0-Ub4irg.png",
+                        thumbnailUrl: "",
                         renderLargerThumbnail: false,
                         mediaUrl: "",
                         sourceUrl: "",
@@ -5258,9 +5258,9 @@ case 'infobot':
         if (isBanChat) return m.reply(mess.bangc);
     const tod = `
 ╭━──━─◈─━─━╮
-│🔖 *Bot Name* : ${botname}
-│🔖 *Owner Name* : ${ownername}
-│🔖 *Owner Number* : ${owner}
+│🔖 *Bot Name* : 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹
+│🔖 *Owner Name* : 𝐌𝐔𝐇𝐌𝐌𝐀𝐃 𝐔𝐒𝐌𝐀𝐍
+│🔖 *Owner Number* : 923140053156
 │🔖 *Prefix* :「 . 」
 │🔖 *Runtime* : _*${hours}h ${minutes}m ${seconds}s*_
 │🔖 *TotalUser* : *${Object.keys(global.db.data.users).length} Users* 
@@ -5594,12 +5594,8 @@ case 'allmenu': {
 │ *Mode* : *Public*
 │ *TotalUser* : *${Object.keys(global.db.data.users).length} Users* 
 │ *TotalChat* : *${Object.keys(global.db.data.chats).length} Group/Chat*
-╰────────────────❃ 
-╭──═❮ *Users Info* ❯═─┈•
-│ *Name* : *${pushname}*
-│ *Number* : *${m.sender.split('@')[0]}*
-│ *Premium* : *${isPremium ? '✅' : '❌'}* ${readmore}
-╰────────────────❃ `;
+╰────────────────❃ ;
+
 
     const randomFontStyle = getRandomFontStyle();
     const randomSymbol = getRandomSymbol();
